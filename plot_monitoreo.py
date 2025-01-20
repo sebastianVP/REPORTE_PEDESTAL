@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-filename = "azi_speed_log_2025-01-07.csv"
+filename = "azi_speed_log_2025-01-16.csv"
 # Crear DataFrame
 df = pd.read_csv(filename)
 df["Timestamp"] = pd.to_datetime(df["Timestamp"])
